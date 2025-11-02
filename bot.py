@@ -2,7 +2,7 @@ import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from tala import get_price  
 
-TOKEN = '8483516997:AAGtryhOROkFM3oAJoyc4wBaNWriPOlnVvQ'
+TOKEN = 'your token'
 bot = telebot.TeleBot(TOKEN)
 
 # ---------- Keyboard buttons ----------
@@ -43,3 +43,4 @@ def callback_query(call):
 print("🤖 ربات فعال شد...")
 
 bot.infinity_polling()
+
