@@ -41,4 +41,5 @@ def callback_query(call):
 
 # ---------- Run the robot ----------
 print("🤖 ربات فعال شد...")
+
 bot.infinity_polling()
